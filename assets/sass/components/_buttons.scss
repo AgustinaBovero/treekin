@@ -1,0 +1,13 @@
+.navigation__buttom-blue{
+ background-color: $ball-blue;
+ color: $white;
+ padding: .6rem;
+}
+
+.navigation__buttom-blue:hover{
+ background-color: $middle-blue;
+}
+
+.navigation__buttom-blue:focus{
+ background-color: $silver;
+}

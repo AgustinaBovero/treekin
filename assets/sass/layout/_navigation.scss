@@ -8,6 +8,7 @@
 .navigation__logo{
   height: 55%;
   margin-left: 4rem;
+  margin-top: .5rem;
 }
 
 .navigation__menu{
@@ -17,12 +18,24 @@
 
 .navigation__button{
   margin-right: 4rem;
+  margin-top: 1.5rem;
 }
 
 .navigation__item{
   margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+
+.navigation__buttom-white{
+  margin-right: 1rem;
+  color: $raising-black;
 }
 
 a {
   text-decoration: none;
+}
+
+.navigation__hamburger{
+  margin-top: 1rem;
+  margin-left: 10rem;
 }

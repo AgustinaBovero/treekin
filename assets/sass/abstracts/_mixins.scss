@@ -1,0 +1,11 @@
+// Mediaqueries ocultar links en nav
+@media (max-width: 768px) {
+  .navigation__item, .navigation__button {
+   display: none; }
+}
+
+// Mediaqueries ocultar hamburger en nav
+@media (min-width: 768px) {
+  .navigation__hamburger {
+   display: none; }
+}
