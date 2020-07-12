@@ -1,0 +1,28 @@
+.navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 5rem;
+}
+
+.navigation__logo{
+  height: 55%;
+  margin-left: 4rem;
+}
+
+.navigation__menu{
+  display: flex;
+  flex-grow: 1;
+}
+
+.navigation__button{
+  margin-right: 4rem;
+}
+
+.navigation__item{
+  margin-left: 2rem;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,50 @@
+// Tipografias nav
+.navigation__item {
+  font-family: $raleway;
+  font-size: $small;
+  font-weight: $bold;
+  color: $raising-black;
+}
+
+.navigation__button {
+  font-family: $raleway;
+  font-size: $small;
+  font-weight: $bold;
+}
+
+// Tipografias header
+.header__info-title {
+  font-family: $raleway;
+  font-size: $xxxx-large;
+  font-weight: $bold;
+  color: $raising-black;
+}
+
+.header__info-text {
+  font-family: $open-sans;
+  font-size: $medium;
+  font-weight: $regular;
+  color: $raising-black;
+}
+
+// Tipografias main
+.section-features__title, .section-prices__title{
+  font-family: $raleway;
+  font-size: $xx-large;
+  font-weight: $bold;
+}
+
+.section-features__info-title{
+  font-family: $raleway;
+  font-size: $x-large;
+  font-weight: $bold;
+}
+
+.section-features__info-text{
+  font-family: $open-sans;
+  font-size: $medium;
+  font-weight: $regular;
+  color: $raising-black;
+}
+
+// Tipografias footer
