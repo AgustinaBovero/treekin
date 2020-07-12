@@ -1,0 +1,15 @@
+.section-prices{
+ background-image: url('../img/bg-price.svg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 50rem;
+ width: 100%;
+ margin-top: 12rem;
+}
+
+.section-prices__title{
+  text-align: center;
+  padding-top: 12rem;
+  color: $white;
+}

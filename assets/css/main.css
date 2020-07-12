@@ -111,6 +111,36 @@ a {
   width: 100%;
 }
 
+.section-features__title {
+  text-align: center;
+}
+
+.section-features {
+  padding-bottom: 10rem;
+}
+
+.section-prices {
+  background-image: url("../img/bg-price.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50rem;
+  width: 100%;
+  margin-top: 12rem;
+}
+
+.section-prices__title {
+  text-align: center;
+  padding-top: 12rem;
+  color: #FFF;
+}
+
+.footer {
+  height: 7rem;
+  background-color: #221D23;
+  color: #FFF;
+}
+
 .navigation__buttom-blue {
   background-color: #2AB7CA;
   color: #FFF;
