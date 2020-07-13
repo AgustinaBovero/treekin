@@ -1,0 +1,21 @@
+.section-prices__cards{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  margin-top: 2rem;
+}
+
+.section-prices__cards-left{
+  height: 28rem;
+  width: 21rem;
+  background-color: $white;
+  margin-left: auto;
+
+}
+
+.section-prices__cards-right{
+  height: 28rem;
+  width: 21rem;
+  background-color: $white;
+
+}

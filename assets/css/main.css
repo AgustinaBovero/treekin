@@ -69,7 +69,7 @@
 
 .navigation__logo {
   height: 55%;
-  margin-left: 4rem;
+  margin-left: 5rem;
   margin-top: 0.5rem;
 }
 
@@ -109,6 +109,14 @@ a {
   background-position: center;
   height: 50rem;
   width: 100%;
+}
+
+.header__info {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  padding-top: 5rem;
+  padding-left: 5rem;
 }
 
 .section-features__title {
@@ -153,6 +161,26 @@ a {
 
 .navigation__buttom-blue:focus {
   background-color: #AEACAF;
+}
+
+.section-prices__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  margin-top: 2rem;
+}
+
+.section-prices__cards-left {
+  height: 28rem;
+  width: 21rem;
+  background-color: #FFF;
+  margin-left: auto;
+}
+
+.section-prices__cards-right {
+  height: 28rem;
+  width: 21rem;
+  background-color: #FFF;
 }
 
 /*# sourceMappingURL=main.css.map */
