@@ -3,5 +3,28 @@
 }
 
 .section-features{
-  padding-bottom: 10rem;
+  padding-bottom: 1rem;
+}
+
+.section-features__container{
+  display: flex;
+  flex-direction: row;
+  padding-top: 4rem;
+  justify-content: center;
+}
+
+.section-features__info{
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  margin: 3rem;
+  padding-top: 4rem;
+}
+
+.section-features__info-text{
+  margin-top: .5rem;
+}
+
+.section-features__graphic{
+  margin: 3rem;
 }

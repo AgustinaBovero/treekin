@@ -1,3 +1,4 @@
+// BOTONES NAV
 .navigation__buttom-blue{
  background-color: $ball-blue;
  color: $white;
@@ -9,5 +10,23 @@
 }
 
 .navigation__buttom-blue:focus{
+ background-color: $silver;
+}
+
+// BOTONES CARDS
+
+.section-prices__button{
+ background-color: $ball-blue;
+ color: $white;
+ margin: 1.8rem;
+ padding: .8rem 1.5rem;
+ text-align: center;
+}
+
+.section-prices__button:hover{
+ background-color: $middle-blue;
+}
+
+.section-prices__button:focus{
  background-color: $silver;
 }

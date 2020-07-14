@@ -38,14 +38,17 @@
       <section class="section-features">
         <h2 class="section-features__title">Caracteristicas</h2>
   <!-- Gráfico animado  -->
+      <div class="section-features__container">
         <div class="section-features__graphic">
-
+          <img src="assets/img/bar-graph.svg" alt="">
         </div>
 
         <div class="section-features__info">
           <h3 class="section-features__info-title">Estadísticas de tu proceso</h3>
           <p class="section-features__info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </div>
+      </div>
+
       </section>
 
 <!-- Sección Precios -->
@@ -53,26 +56,37 @@
         <h2 class="section-prices__title">Precios</h2>
     <!-- Cards -->
         <div class="section-prices__cards">
-          <div class="section-prices__cards-left">
-            <h3>Trekk-in Free</h3>
-            <h1>$0 / mes</h1>
 
-            <ul>
-              <li>Ver mapas creados por usuarios</li>
-              <li>Conectar con otros usuarios</li>
-            </ul>
+          <div class="section-prices__cards-left">
+            <div class="cards__container">
+              <h3>Trekk-in Free</h3>
+              <h1>$0 / mes</h1>
+              <hr size="4" noshade="noshade" color="lightgray" class="cards__line-1"/>
+              <ul class="cards__list">
+                <li>Ver mapas creados por usuarios</li>
+                <li>Conectar con otros usuarios</li>
+              </ul>
+            </div>
+            <hr size="4" noshade="noshade" color="lightgray" class="cards__line-2"/>
+            <a class="section-prices__button" href="#">Obtén free</a>
+
           </div>
+
           <div class="section-prices__cards-right">
-            <h3>Trekk-in Free</h3>
-            <h1>$3500 / mes</h1>
-          
-            <ul>
-              <li>Ver mapas creados por usuarios</li>
-              <li>Conectar con otros usuarios</li>
-              <li>Definir mejores rutas</li>
-              <li>Mapas Offline</li>
-              <li>Integración con otras aplicaciones</li>
-            </ul>
+            <div class="cards__container">
+              <h3>Trekk-in Premium</h3>
+              <h1>$3500 / mes</h1>
+              <hr size="4" noshade="noshade" color="lightgray" class="cards__line-1"/>
+              <ul class="cards__list">
+                <li>Ver mapas creados por usuarios</li>
+                <li>Conectar con otros usuarios</li>
+                <li>Definir mejores rutas</li>
+                <li>Mapas Offline</li>
+                <li>Integración con otras aplicaciones</li>
+              </ul>
+            </div>
+            <hr size="4" noshade="noshade" color="lightgray" class="cards__line-2"/>
+            <a class="section-prices__button" href="#">Obtén Premium</a>
           </div>
         </div>
       </section>

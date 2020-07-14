@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 4rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .section-prices__cards-left{
@@ -10,6 +10,9 @@
   width: 21rem;
   background-color: $white;
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 
 }
 
@@ -17,5 +20,47 @@
   height: 28rem;
   width: 21rem;
   background-color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 
+.cards__container{
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+padding-top: 3rem;
+}
+
+.cards__container h3{
+  padding-left: 1.8rem;
+}
+
+.cards__container h1{
+  padding-left: 1.8rem;
+}
+
+.cards__list{
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+.cards__list li{
+  margin-top: 8px;
+}
+
+.cards__line-2{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
+  padding-bottom: 0;
+}
+
+.cards__line-1{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
+  margin-top: 1.5rem;
 }

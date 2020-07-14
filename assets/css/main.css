@@ -35,7 +35,7 @@
 }
 
 .header__info-text {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #221D23;
@@ -54,9 +54,37 @@
 }
 
 .section-features__info-text {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  color: #221D23;
+}
+
+.section-prices__button {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.cards__list {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #221D23;
+}
+
+.cards__container h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #221D23;
+}
+
+.cards__container h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
   color: #221D23;
 }
 
@@ -119,12 +147,39 @@ a {
   padding-left: 5rem;
 }
 
+.header__info-text {
+  margin-top: 0.5rem;
+}
+
 .section-features__title {
   text-align: center;
 }
 
 .section-features {
-  padding-bottom: 10rem;
+  padding-bottom: 1rem;
+}
+
+.section-features__container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 4rem;
+  justify-content: center;
+}
+
+.section-features__info {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  margin: 3rem;
+  padding-top: 4rem;
+}
+
+.section-features__info-text {
+  margin-top: 0.5rem;
+}
+
+.section-features__graphic {
+  margin: 3rem;
 }
 
 .section-prices {
@@ -134,7 +189,7 @@ a {
   background-position: center;
   height: 50rem;
   width: 100%;
-  margin-top: 12rem;
+  margin-top: 6rem;
 }
 
 .section-prices__title {
@@ -163,11 +218,27 @@ a {
   background-color: #AEACAF;
 }
 
+.section-prices__button {
+  background-color: #2AB7CA;
+  color: #FFF;
+  margin: 1.8rem;
+  padding: 0.8rem 1.5rem;
+  text-align: center;
+}
+
+.section-prices__button:hover {
+  background-color: #77D1DD;
+}
+
+.section-prices__button:focus {
+  background-color: #AEACAF;
+}
+
 .section-prices__cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 4rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .section-prices__cards-left {
@@ -175,12 +246,58 @@ a {
   width: 21rem;
   background-color: #FFF;
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .section-prices__cards-right {
   height: 28rem;
   width: 21rem;
   background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.cards__container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: 3rem;
+}
+
+.cards__container h3 {
+  padding-left: 1.8rem;
+}
+
+.cards__container h1 {
+  padding-left: 1.8rem;
+}
+
+.cards__list {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+.cards__list li {
+  margin-top: 8px;
+}
+
+.cards__line-2 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
+  padding-bottom: 0;
+}
+
+.cards__line-1 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
+  margin-top: 1.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
