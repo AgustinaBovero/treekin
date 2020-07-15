@@ -25,17 +25,17 @@
   font-size: $medium;
   font-weight: $regular;
   color: $raising-black;
+  line-height: 16pt;
 }
 
 // Mediaqueries tipografias header
 @media (max-width: 768px) {
   .header__info-text {
-   font-size: $small; }
-}
-
-@media (max-width: 768px) {
-  .header__info-title {
-   font-size: $xx-large; }
+   font-size: $small;
+ }
+ .header__info-title {
+   font-size: $xx-large;
+ }
 }
 
 
@@ -57,23 +57,22 @@
   font-size: $medium;
   font-weight: $regular;
   color: $raising-black;
+  line-height: 16pt;
 }
 
 // Mediaqueries tipografias secciones
 @media (max-width: 768px) {
   .section-features__title, .section-prices__title {
-   font-size: $x-large; }
+   font-size: $x-large;
+ }
+   .section-features__info-text {
+    font-size: $small;
+  }
+    .section-features__info-title {
+     font-size: $large;
+   }
 }
 
-@media (max-width: 768px) {
-  .section-features__info-text {
-   font-size: $small; }
-}
-
-@media (max-width: 768px) {
-  .section-features__info-title {
-   font-size: $large; }
-}
 
 
 // Tipografias Cards
@@ -119,3 +118,10 @@
   }
 }
 // Tipografias footer
+
+.footer__item-1, .footer__item-2, .footer__item-3, .footer__item-4,{
+  font-family: $raleway;
+  font-size: $small;
+  font-weight: $regular;
+  color: $white;
+}

@@ -7,15 +7,6 @@
  width: 100%;
 }
 
-@media (max-width: 768px) {
-  .header {
-   height: 15rem;
-   margin-top: 10rem;
-   margin-bottom: 4rem;
-  }
-}
-
-
 .header__info{
   display: flex;
   flex-direction: column;
@@ -28,7 +19,15 @@
   margin-top: .5rem;
 }
 
+// Mediaqueries header
+
 @media (max-width: 768px) {
+  .header {
+   height: 15rem;
+   margin-top: 12rem;
+   margin-bottom: 4rem;
+  }
+
   .header__info {
    width: 15rem;
    padding-left: 2.5rem;
@@ -36,7 +35,5 @@
    margin-top: 0rem;
    position: absolute;
    top: 100px;
-
-
   }
 }

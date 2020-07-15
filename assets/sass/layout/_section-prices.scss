@@ -14,12 +14,15 @@
   color: $white;
 }
 
+// Mediaqueries section-prices
+
 @media (max-width: 768px) {
   .section-prices {
-    height:80rem;
+    height:85rem;
     margin-top: 0;
   }
   .section-prices__title  {
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
+    padding-top: 16rem;
   }
 }

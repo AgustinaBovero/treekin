@@ -33,6 +33,9 @@
 
 // Mediaqueries para features en columnas
 @media (max-width: 768px) {
+  .section-features{
+    padding-bottom: 0rem;
+  }
 
   .section-features__container {
     flex-direction: column;
@@ -43,8 +46,14 @@
     padding-bottom: 0;
     width: auto;
   }
+  svg{
+    margin: auto;
 
-   img {
-     width: 15rem;
-   }
- }
+
+
+  }
+  .section-features__graphic{
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+}
