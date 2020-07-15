@@ -13,3 +13,13 @@
   padding-top: 12rem;
   color: $white;
 }
+
+@media (max-width: 768px) {
+  .section-prices {
+    height:80rem;
+    margin-top: 0;
+  }
+  .section-prices__title  {
+    padding-bottom: 1rem;
+  }
+}

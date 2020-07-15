@@ -8,6 +8,17 @@
     display: none;
   }
 }
+@keyframes opacity {
+  5% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -41,6 +52,16 @@
   color: #221D23;
 }
 
+@media (max-width: 768px) {
+  .header__info-text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .header__info-title {
+    font-size: 35px;
+  }
+}
 .section-features__title, .section-prices__title {
   font-family: "Raleway", sans-serif;
   font-size: 35px;
@@ -60,6 +81,21 @@
   color: #221D23;
 }
 
+@media (max-width: 768px) {
+  .section-features__title, .section-prices__title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .section-features__info-text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .section-features__info-title {
+    font-size: 20px;
+  }
+}
 .section-prices__button {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
@@ -88,11 +124,25 @@
   color: #221D23;
 }
 
+@media (max-width: 768px) {
+  .cards__list {
+    font-size: 14px;
+  }
+
+  .cards__container h1 {
+    font-size: 30px;
+  }
+
+  .cards__container h3 {
+    font-size: 16px;
+  }
+}
 .navigation {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  height: 5rem;
+  height: 4rem;
+  width: 100%;
 }
 
 .navigation__logo {
@@ -130,6 +180,17 @@ a {
   margin-left: 10rem;
 }
 
+@media (max-width: 768px) {
+  .navigation__hamburger {
+    margin-right: 5rem;
+  }
+
+  .navigation__logo {
+    margin-top: 0.8rem;
+    padding: 0;
+    width: 4rem;
+  }
+}
 .header {
   background-image: url("../img/bg-hero.svg");
   background-repeat: no-repeat;
@@ -139,11 +200,18 @@ a {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .header {
+    height: 15rem;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+  }
+}
 .header__info {
   display: flex;
   flex-direction: column;
   width: 25rem;
-  padding-top: 5rem;
+  padding-top: 8rem;
   padding-left: 5rem;
 }
 
@@ -151,12 +219,23 @@ a {
   margin-top: 0.5rem;
 }
 
+@media (max-width: 768px) {
+  .header__info {
+    width: 15rem;
+    padding-left: 2.5rem;
+    padding-top: 0rem;
+    margin-top: 0rem;
+    position: absolute;
+    top: 100px;
+  }
+}
 .section-features__title {
   text-align: center;
 }
 
 .section-features {
   padding-bottom: 1rem;
+  width: 100%;
 }
 
 .section-features__container {
@@ -167,11 +246,10 @@ a {
 }
 
 .section-features__info {
-  display: flex;
-  flex-direction: column;
+  padding-top: 6rem;
   width: 25rem;
-  margin: 3rem;
-  padding-top: 4rem;
+  margin-left: 3rem;
+  position: relative;
 }
 
 .section-features__info-text {
@@ -182,6 +260,21 @@ a {
   margin: 3rem;
 }
 
+@media (max-width: 768px) {
+  .section-features__container {
+    flex-direction: column;
+  }
+
+  .section-features__info {
+    padding-top: 0.3rem;
+    padding-bottom: 0;
+    width: auto;
+  }
+
+  img {
+    width: 15rem;
+  }
+}
 .section-prices {
   background-image: url("../img/bg-price.svg");
   background-repeat: no-repeat;
@@ -198,10 +291,21 @@ a {
   color: #FFF;
 }
 
+@media (max-width: 768px) {
+  .section-prices {
+    height: 80rem;
+    margin-top: 0;
+  }
+
+  .section-prices__title {
+    padding-bottom: 1rem;
+  }
+}
 .footer {
   height: 7rem;
   background-color: #221D23;
   color: #FFF;
+  width: 100%;
 }
 
 .navigation__buttom-blue {
@@ -235,20 +339,20 @@ a {
 }
 
 .section-prices__cards {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 4rem;
+  display: flex;
+  flex-direction: row;
   margin-top: 3rem;
+  justify-content: center;
 }
 
 .section-prices__cards-left {
   height: 28rem;
   width: 21rem;
   background-color: #FFF;
-  margin-left: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin: 1rem;
 }
 
 .section-prices__cards-right {
@@ -258,6 +362,19 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin: 1rem;
+}
+
+.section-prices__cards-left:hover {
+  -webkit-box-shadow: 7px 13px 14px -1px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 7px 13px 14px -1px rgba(0, 0, 0, 0.7);
+  box-shadow: 7px 13px 14px -1px rgba(0, 0, 0, 0.7);
+}
+
+.section-prices__cards-right:hover {
+  -webkit-box-shadow: 7px 13px 14px -1px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 7px 13px 14px -1px rgba(0, 0, 0, 0.7);
+  box-shadow: 7px 13px 14px -1px rgba(0, 0, 0, 0.7);
 }
 
 .cards__container {
@@ -298,6 +415,25 @@ a {
   margin-left: 1.8rem;
   margin-right: 1.8rem;
   margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .section-prices__cards {
+    flex-direction: column;
+  }
+
+  .section-prices__cards-left {
+    width: 18rem;
+  }
+
+  .section-prices__cards-right {
+    width: 18rem;
+  }
+}
+.section-features__graphic {
+  animation-name: opacity;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 
 /*# sourceMappingURL=main.css.map */

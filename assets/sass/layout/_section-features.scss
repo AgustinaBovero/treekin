@@ -4,6 +4,7 @@
 
 .section-features{
   padding-bottom: 1rem;
+  width: 100%
 }
 
 .section-features__container{
@@ -14,11 +15,10 @@
 }
 
 .section-features__info{
-  display: flex;
-  flex-direction: column;
+  padding-top: 6rem;
   width: 25rem;
-  margin: 3rem;
-  padding-top: 4rem;
+  margin-left: 3rem;
+  position: relative;
 }
 
 .section-features__info-text{
@@ -28,3 +28,23 @@
 .section-features__graphic{
   margin: 3rem;
 }
+
+
+
+// Mediaqueries para features en columnas
+@media (max-width: 768px) {
+
+  .section-features__container {
+    flex-direction: column;
+  }
+
+  .section-features__info {
+    padding-top: .3rem;
+    padding-bottom: 0;
+    width: auto;
+  }
+
+   img {
+     width: 15rem;
+   }
+ }

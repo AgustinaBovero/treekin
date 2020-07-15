@@ -1,21 +1,24 @@
 .section-prices__cards{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 4rem;
+  display: flex;
+  flex-direction: row;
   margin-top: 3rem;
+  justify-content: center;
 }
 
+
+// Card izquierda
 .section-prices__cards-left{
   height: 28rem;
   width: 21rem;
   background-color: $white;
-  margin-left: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin: 1rem;
 
 }
 
+// Card derecha
 .section-prices__cards-right{
   height: 28rem;
   width: 21rem;
@@ -23,8 +26,25 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin: 1rem;
+
 }
 
+
+//estado card hover
+.section-prices__cards-left:hover{
+  -webkit-box-shadow: 7px 13px 14px -1px rgba(0,0,0,0.7);
+  -moz-box-shadow: 7px 13px 14px -1px rgba(0,0,0,0.7);
+  box-shadow: 7px 13px 14px -1px rgba(0,0,0,0.7);
+}
+.section-prices__cards-right:hover{
+  -webkit-box-shadow: 7px 13px 14px -1px rgba(0,0,0,0.7);
+  -moz-box-shadow: 7px 13px 14px -1px rgba(0,0,0,0.7);
+  box-shadow: 7px 13px 14px -1px rgba(0,0,0,0.7);
+}
+
+
+// Contenido de cards
 .cards__container{
 display: flex;
 flex-direction: column;
@@ -63,4 +83,17 @@ padding-top: 3rem;
   margin-left: 1.8rem;
   margin-right: 1.8rem;
   margin-top: 1.5rem;
+}
+
+// Mediaqueries para cards en columnas
+@media (max-width: 768px) {
+  .section-prices__cards {
+   flex-direction: column;
+  }
+  .section-prices__cards-left {
+   width: 18rem;
+  }
+  .section-prices__cards-right {
+   width: 18rem;
+  }
 }

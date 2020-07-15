@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  height: 5rem;
+  height: 4rem;
+  width: 100%;
 }
 
 .navigation__logo{
@@ -38,4 +39,18 @@ a {
 .navigation__hamburger{
   margin-top: 1rem;
   margin-left: 10rem;
+}
+
+
+// Mediaqueries Nav 
+@media (max-width: 768px) {
+  .navigation__hamburger {
+    margin-right: 5rem;
+  }
+
+  .navigation__logo {
+    margin-top: .8rem;
+    padding: 0;
+    width: 4rem;
+    }
 }
