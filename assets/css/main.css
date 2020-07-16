@@ -319,6 +319,7 @@ a {
 .footer {
   height: 6rem;
   background-color: #221D23;
+  width: 100%;
 }
 
 .footer_container {
@@ -329,6 +330,8 @@ a {
   align-items: center;
   justify-content: center;
   padding-top: 3rem;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .footer__item-1 {
@@ -355,6 +358,7 @@ a {
     box-sizing: border-box;
     padding-top: 0rem;
     margin: 0;
+    width: auto;
   }
 
   .footer__item-1 {

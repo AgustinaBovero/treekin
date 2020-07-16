@@ -5,7 +5,6 @@
   justify-content: center;
 }
 
-
 // Card izquierda
 .section-prices__cards-left{
   height: 28rem;
@@ -15,7 +14,6 @@
   flex-direction: column;
   justify-content: flex-end;
   margin: 1rem;
-
 }
 
 // Card derecha
@@ -27,9 +25,7 @@
   flex-direction: column;
   justify-content: flex-end;
   margin: 1rem;
-
 }
-
 
 //estado card hover
 .section-prices__cards-left:hover{
@@ -42,7 +38,6 @@
   -moz-box-shadow: 7px 13px 14px -1px rgba(0,0,0,0.7);
   box-shadow: 7px 13px 14px -1px rgba(0,0,0,0.7);
 }
-
 
 // Contenido de cards
 .cards__container{
